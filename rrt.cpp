@@ -83,7 +83,7 @@ Node CreateChildNode(Node near, Node Xnew){
 int main()
 {
 
-    cv::Mat image = cv::imread("/home/ravishankar/RRT/binMap.png",0);
+    cv::Mat image = cv::imread("/Users/basavaraj/Desktop/RRT\ 2/binMap.png",0);
     auto imageDisplay = image.clone();
     if (!image.data){
         std::cout << "Could not open or find the image" << std::endl;

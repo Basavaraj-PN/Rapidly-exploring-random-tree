@@ -1,4 +1,0 @@
-/home/ravishankar/RRT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/ravishankar/RRT/cmake-build-debug/CMakeFiles/app2.dir
-/home/ravishankar/RRT/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ravishankar/RRT/cmake-build-debug/CMakeFiles/app.dir
