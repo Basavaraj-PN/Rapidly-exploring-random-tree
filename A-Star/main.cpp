@@ -18,13 +18,13 @@ public:
     float f, g;
     int x, y;
     Node(){};
+    Node(int x_, int y_) : x(x_), y(y_) {};
     Node(float f_, float g_) : f(f_), g(g_){};
-    Node(Node* parent_, float f_, float g_) : parent(parent_), f(f_), g(g_) {};
+    Node(Node* parent_, int x_, int y_, float f_, float g_) : parent(parent_), x(x_), y(y_), f(f_), g(g_) {};
 };
 uint width, height;
-
 cv::Mat image;
-Node start(NULL, 0, 0);
+Node start(NULL,0, 0, 0, 0);
 int main() {
     const std::string file = "/Users/basavaraj/Desktop/WORKSPACE/binMap.png";
     image = cv::imread(file,0);
