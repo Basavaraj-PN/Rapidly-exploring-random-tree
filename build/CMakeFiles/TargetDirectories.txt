@@ -1,4 +1,0 @@
-/Users/basavaraj/Desktop/RRT 2/build/CMakeFiles/app2.dir
-/Users/basavaraj/Desktop/RRT 2/build/CMakeFiles/rebuild_cache.dir
-/Users/basavaraj/Desktop/RRT 2/build/CMakeFiles/edit_cache.dir
-/Users/basavaraj/Desktop/RRT 2/build/CMakeFiles/app.dir
