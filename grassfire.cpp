@@ -30,8 +30,9 @@ void GetChildNodes(std::pair<int, int> &t, std::vector< std::pair<int, int> > &c
     std::pair<int, int> n1, n2, n3, n4, n5, n6, n7, n8;
     n1.first = t.first-1;
     n1.second = t.second;
-    if(boundryCheck(n1))
+    if(boundryCheck(n1)){
         children.push_back(n1);
+    }
 
     n2.first = t.first+1;
     n2.second = t.second;
