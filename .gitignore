@@ -1,6 +1,6 @@
 # Prerequisites
 *.d
-
+.idea
 # Compiled Object files
 *.slo
 *.lo
@@ -138,6 +138,7 @@ proguard/
 captures/
 
 # IntelliJ
+*.idea
 *.iml
 .idea/workspace.xml
 .idea/tasks.xml
