@@ -22,6 +22,7 @@ public:
     Node(Node* parent_, float f_, float g_) : parent(parent_), f(f_), g(g_) {};
 };
 uint width, height;
+
 cv::Mat image;
 Node start(NULL, 0, 0);
 int main() {
