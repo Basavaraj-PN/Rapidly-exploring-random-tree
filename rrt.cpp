@@ -3,7 +3,6 @@
 #include<vector>
 #include<cmath>
 
-
 #include <opencv2/core/core.hpp>
 #include <opencv2/opencv.hpp>
 #include <opencv2/highgui.hpp>
@@ -83,7 +82,7 @@ Node CreateChildNode(Node near, Node Xnew){
 int main()
 {
 
-    cv::Mat image = cv::imread("/Users/basavaraj/Desktop/RRT\ 2/binMap.png",0);
+    cv::Mat image = cv::imread("/Users/basavaraj/Desktop/WORKSPACE/binMap.png",0);
     auto imageDisplay = image.clone();
     if (!image.data){
         std::cout << "Could not open or find the image" << std::endl;
@@ -127,7 +126,7 @@ int main()
                 break;
             }
         }
-        cv::imshow("image",imageDisplay);
+        cv::imshow("EXPLORE",imageDisplay);
         cv::waitKey(30);
     }
     Node temp_node = end;

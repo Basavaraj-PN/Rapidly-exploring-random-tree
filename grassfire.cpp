@@ -94,7 +94,6 @@ void displayMatrix(Eigen::MatrixXd& matrix, cv::Mat& img){
             img.at<uchar>(i,j) = 255*matrix(i,j)/maxm;
         }
     }
-
     cv::imshow("image",img);
     cv::waitKey(0);
 }
@@ -131,6 +130,7 @@ int main(){
     const std::string file = "/Users/basavaraj/Desktop/WORKSPACE/binMap.png";
     image = cv::imread(file,0);
     auto imageDisplay = image.clone();
+    auto dis = image.clone();
 //    image = cv::Mat::zeros(10,10,CV_8UC1);
 //    image.at<uchar>(4,5) = 255;
 
@@ -158,7 +158,6 @@ int main(){
         }
 
     }
-
 //    std::cout<<matrix<<std::endl;
 
 //    Eigen::MatrixXd matrix2 = matrix*255/1000;
